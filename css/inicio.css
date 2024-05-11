@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(#AC87C5B6,#FFE5E5);
+    padding: 5px 10px;
+    height: 100%;
+    
+}
+.header_title_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.header_title_container > h1 {
+    color: #824D74;
+    margin-left: 5px;
+
+}
+
+.header_navigation {
+    display: flex;
+    gap: 30px;
+}
+
+.header_navigation > a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #430A5D;
+    
+}
+
+.header_navigation > a:hover {
+    color: #BB8493;
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.header_navigation > a:active {
+    color: #DBAFA0;
+    transform: scale(1.01);
+}
+
+.header_buttons {
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.header_register_button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #824D74;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.header_singup_button:hover {
+    color: #401F71;
+    transform: scale(1.01);
+
+}
+.header_register_button:active {
+    color:#824D74;
+    transform: scale(1.05);
+
+}
+
+.header_singup_button {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #DBAFA0;
+    cursor: pointer;
+    background: #824D74;
+  
+}
+.header_singup_button:active {
+    color: #DBAFA0;
+    transform: scale(1.05);
+
+}
+.header_register_button:hover {
+    color:#401F71;
+    transform: scale(1.01);
+}
+/*main*/
+.presentacion {
+    background: #FFE5E5;
+    color: #401F71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px;
+
+}
+
+.contenido_presentacion {
+    font-size: 32px;
+    padding: 80px 80px;
+}
+
+.imagen_bienvenida {
+    width: 400px;
+    height: 450px;
+    padding: 20px 30px;
+}
+.parrafo {
+    font-size: 24px;
+    color: #824D74;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 30px;
+}
+.contenido_presentacion > button {
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #DBAFA0;
+    background: #824D74;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+.contenido_presentacion:hover >button {
+    color: #401F71;
+    transform: scale(1.01);
+}
+.contenido_presentacion:active > button {
+    color: #DBAFA0;
+    transform: scale(1.05);
+}
+
+/*footer*/
+footer {
+    background:linear-gradient(#FFE5E5,#AC87C5B6);
+    height: 100%;
+    padding: 100px 100px;
+}
